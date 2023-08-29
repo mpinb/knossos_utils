@@ -31,6 +31,8 @@
 """This file provides a class representation of a KNOSSOS-dataset for
 reading and writing raw and overlay data."""
 
+import ctypes
+libgcc_s = ctypes.CDLL("libgcc_s.so.1")
 
 import warnings
 import collections
